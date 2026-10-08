@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-/// Data satu produk (mirip class Barang di modul OOP).
+
 class Produk {
   final int id;
   final String nama;
@@ -15,7 +15,6 @@ class Produk {
   });
 }
 
-/// 350000 -> "Rp 350.000"
 String formatRupiah(int angka) {
   final s = angka.toString();
   final buf = StringBuffer();
